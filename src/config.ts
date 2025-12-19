@@ -1,69 +1,68 @@
 export const siteConfig = {
   name: "Achraf Baba",
   title: "AI & Data Engineering Student",
-  description: "Portfolio website of Achraf Baba",
+  description: "Applied AI, Data Analytics, and Decision-Support Systems",
   accentColor: "#1d4ed8",
 
   social: {
     email: "babachraf1@gmail.com",
     linkedin: "https://www.linkedin.com/in/achraf-baba-7b8726210/",
-    twitter: "https://twitter.com/yourprofile",
     github: "https://github.com/yourusername",
   },
 
   aboutMe:
-    "AI and Data Engineering student at Istanbul Technical University with hands-on experience in machine learning, deep learning, and data analytics. I work on end-to-end projects involving real-world data, predictive modeling, optimization, and interactive visualization. My interests include applied AI, data-driven systems, and decision-making problems across multiple domains. Curious, disciplined, and growth-oriented, I continuously build projects that bridge theory with real-world impact.",
+    "AI and Data Engineering student at Istanbul Technical University with hands-on experience building end-to-end data and machine learning systems. I focus on transforming raw data into actionable insights through analytics, predictive modeling, and interactive dashboards. My interests include applied AI, financial and market analytics, and data-driven decision support. I prioritize practical projects that bridge theory with real-world impact.",
 
   skills: [
     "Python",
     "Machine Learning",
-    "Deep Learning",
     "Data Analysis",
     "SQL",
     "NLP",
     "Time Series Analysis",
-    "Tableau",
+    "Scikit-learn",
     "TensorFlow",
     "PyTorch",
-    "AWS",
+    "Streamlit",
+    "Tableau",
     "Git",
   ],
 
   projects: [
     {
-      name: "Tesla Sentiment & Emotion Dashboard",
+      name: "Tesla Sentiment & Market Insight Dashboard",
       description:
-        "Real-time sentiment and emotion analysis system using Reddit posts and news articles. Processed textual data with transformer-based models and visualized insights through an interactive Streamlit dashboard.",
+        "Built an end-to-end NLP system that collects Reddit and news data to analyze sentiment and emotions around Tesla. Identified sentiment shifts linked to major events and visualized insights through an interactive Streamlit dashboard for market monitoring.",
       link: "https://github.com/yourusername/tesla-sentiment-dashboard",
       skills: ["Python", "NLP", "Transformers", "Streamlit", "Plotly"],
     },
     {
-      name: "Istanbul Real Estate Price Prediction",
+      name: "Real Estate Market Analytics & Price Estimation",
       description:
-        "Built and evaluated machine learning models to predict real estate prices using structured property and location features. Results were analyzed and visualized through an interactive Power BI dashboard.",
+        "Developed a real estate analytics system combining feature engineering and predictive modeling to estimate property prices. Visualized regional market dynamics to support comparison of over- and under-valued areas.",
       link: "https://github.com/yourusername/istanbul-real-estate",
-      skills: ["Python", "Scikit-learn", "Regression", "Power BI", "EDA"],
+      skills: ["Python", "Scikit-learn", "Regression", "EDA", "Streamlit"],
     },
     {
-      name: "Recommendation System Engine",
+      name: "Explainable Asset Recommendation System",
       description:
-        "Implemented collaborative filtering and content-based recommendation models to personalize item suggestions.",
-      link: "https://github.com/yourusername/recommendation-system",
-      skills: ["Python", "Recommender Systems", "Machine Learning"],
+        "Designed a data-driven asset recommendation engine that ranks assets using multiple quantitative signals such as risk, momentum, volatility, and stability. Provided transparent scoring to support portfolio allocation decisions.",
+      link: "https://github.com/yourusername/asset-recommendation-system",
+      skills: ["Python", "Pandas", "NumPy", "Financial Data APIs"],
     },
     {
-      name: "LLM-Powered Knowledge Assistant",
+      name: "Job Market Analytics & Skill Recommendation System",
       description:
-        "Built a retrieval-augmented LLM assistant to answer questions over structured and unstructured documents.",
-      link: "https://github.com/yourusername/llm-knowledge-assistant",
-      skills: ["Python", "LLMs", "RAG", "NLP"],
+        "Built an analytics system that analyzes job market data to track skill demand trends and recommend relevant skills and roles based on market evolution.",
+      link: "https://github.com/yourusername/job-market-analytics",
+      skills: ["Python", "SQL", "Pandas", "Data Analysis", "Streamlit"],
     },
     {
-      name: "End-to-End Data Engineering Pipeline",
+      name: "Operational Analytics Dashboards (HR & Sales)",
       description:
-        "Designed a complete ETL pipeline from raw data ingestion to analytics-ready storage.",
-      link: "https://github.com/yourusername/data-engineering-pipeline",
-      skills: ["Python", "SQL", "ETL", "Data Engineering"],
+        "Designed interactive dashboards to track HR and sales KPIs, workforce metrics, and revenue trends, enabling data-driven operational and strategic decisions for non-technical stakeholders.",
+      link: "https://github.com/yourusername/business-dashboards",
+      skills: ["Tableau", "Data Visualization", "Business Analytics"],
     },
   ],
 
@@ -73,9 +72,9 @@ export const siteConfig = {
       title: "AI & Data Engineering Student",
       dateRange: "2023 - Present",
       bullets: [
-        "Built end-to-end machine learning and data engineering projects using real-world datasets.",
-        "Performed data preprocessing, feature engineering, model training, and evaluation.",
-        "Designed dashboards and applications to communicate insights clearly.",
+        "Built end-to-end data analytics and machine learning systems using real-world datasets.",
+        "Applied feature engineering, model evaluation, and quantitative analysis to support decision-making.",
+        "Designed dashboards and data products to communicate insights clearly to non-technical users.",
       ],
     },
   ],
